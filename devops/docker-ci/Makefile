@@ -1,7 +1,7 @@
-.PHONY: build
+.PHONY: build clear
 build:
 	# build cache
-	docker build -t gomod-cache -f ./gomod.Dockerfile .
+	docker build -t gomod-cache -f ./image.gomod.Dockerfile .
 
 	# build go binary and remove image
 	docker build -t docker-ci-test -f ./Dockerfile .
