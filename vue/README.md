@@ -1,4 +1,4 @@
-#vue学习
+# vue学习
 
 - [vue原理](https://www.jianshu.com/p/5990a386132a)
 - [vue diff](https://www.cnblogs.com/wind-lanyan/p/9061684.html)
